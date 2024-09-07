@@ -1,0 +1,16 @@
+{
+  "name": "studies-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/nissyi-gh/studies-typescript.git",
+  "author": "yuta.onishi <rad6242@icloud.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "start": "ts-node src/hello_world.ts",
+    "build": "tsc"
+  }
+}
